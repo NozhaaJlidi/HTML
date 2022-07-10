@@ -1,85 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <header>
+  <link rel="stylesheet" href="styles.css">
    <div class="topnav" style="right: ;40%">
-        <a class="active" href="#home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Resume">Resume</a>
-        <a href="#Contact">Contact</a>
-        
-    </div>
+    <a href="#Contact">Contact</a>
+    <a href="#Resume">Resume</a>
+    <a href="#About">About</a>
+    <a class="active" href="#home">Home</a>
+   </div>
 </header>
-<h1>Nozha Jlidi </h1>
-       <table>
-          <tr style="width: ;4cm">
-          <img src="image.jpg" alt="image" width="200" height="200"> </tr>            
-       
-        </table>
-<section>
 
-  <div id="About"> 
-   <h1>
-    About</div>
-  </h1> 
-    PhD student in Electrical Engineering "Computer Science" at the National School of Electronics and Telecommunications of Sfax
-    (ENET'Com) within the research unit RTIM (Research Team In Intelligent Machines).
-    <br>
-    Owner of :
-    <br>
-    <ul>
-      <li>Master of Research in Computer Science and Multimedia (ISIMG).</li>
-      <li>Basic degree in Computer Science and Multimedia (ISIMG).</li>
-    </ul>
+<div class="column" style="background-color:rgb(253, 253, 253);">
+    <img src="images/profile.png" alt="image" width="1132" height="541">      
+</div>
 
-  </section>
+
+
+
+  <!--- About Section --->
+  <section>
+
+    <div id="About"> 
+     <h1>
+      <h1 class="intro">About</h1></div>
+  
+      PhD student in Electrical Engineering "Computer Science" at the National School of Electronics and Telecommunications of Sfax
+      (ENET'Com) within the research unit RTIM (Research Team In Intelligent Machines).
+      <br>
+      Owner of :
+      <br>
+      <ul>
+        <li>Master of Research in Computer Science and Multimedia (ISIMG).</li>
+        <li>Basic degree in Computer Science and Multimedia (ISIMG).</li>
+      </ul>
+  
+    </section>
+</div>
+
+  
+<br>
+
+  <!--- Resume Section --->
 <section>
   <div id="Resume"> 
     <h1>
      Resume</div>
    </h1> 
 
-<br>
-  Certifiactions:
+
+  <h4>Certifiactions:</h4>
   <ul>
+    <li>Big tech in IoT and Gaming. </li>
+    <li>Game development with Unity.</li>
     <li>The fundamentals of graphic design.</li>
-    <li>Create Your First Web App with Python and Flask.</li>
+    <li>Cyber security Days of Gabes University.</li>
+    <li>Applied Machine learning Days with Python.</li>
     <li>Deep learning specialization on Googl Collab.</li>
+    <li>Create Your First Web App with Python and Flask.</li>    
   </ul>
-</section>
-<section>
-    <form>
-      <div id="Contact"> 
-        <h1>
-         Contact </div>
-       </h1> 
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname">
   
-    </form>
+  
+  <h4> Professional experiences: </h4>
+  Teacher at the Higher Institute of Computing and Multimedia of Gabes.
+  <ul>
+    <li>Teaching tutorials: Database</li>
+    <li>Teaching practical work: Database</li>
+    <li>Teaching of practical work: python programming</li>
+    <li>Teaching of practical work: Culture and Digital Competence</li>  
+    <li>Teaching of integrated courses: Digital skills - Certification in Computer Science and Internet (C2i)</li>
+      
+  </ul>
 
-  </section>
+</section>
 
-
-
- <h1>
-  My services
- </h1>  
- <table>
-  <tr style="width: ;4cm">
-    <td> <img src="github.png" alt="image" width="30" height="30"> </td>
-    <td> <img src="A.jpg" alt="image" width="35" height="30"> </td>
-    <td> <img src="video.jpg" alt="image" width="40" height="30"> </td>
-  </tr>
-  <tr>
-    <td  style="width: 40%;">Web Development</td>
-    <td  style="width: 40%;">IA</td>
-    <td>Video Editing</td>
-  </tr>
+  <!--- contact Section --->
+ <h1>Contact</h1> 
+ <br>
+  <h4> Have any questions? We would be happy to answer your questions </h4>
  
-</table>
+<section>
+  <div id="Contact"> 
+ <div class="container">
+  <img src="images/Gmail.jpg" alt="Avatar" style="width:100px">
+  <p><span >Gmail</span> </p>
+  <p>nozha.aljlidi@isimg.tn</p>
+</div>
+ <div class="container">
+  <img src="images/github.png" alt="Avatar" style="width:90px">
+  <p><span>Github</span></p>
+  <p><a href="https://github.com/NozhaaJlidi">https://github.com/NozhaaJlidi</a></p>
+</div>
+
+<div class="container">
+  <img src="images/linkedin.jpg" alt="Avatar" style="width:100px">
+  <p><span >Linkedin</span> </p>
+  <p><a href="https://www.linkedin.com/in/nozha-jlidi/">https://www.linkedin.com/in/nozha-jlidi/</a></p>
+</div>
+  </div>
+  <hr>
+<br>
+  
+
+
+</section>
+
+
+
+
 <footer>
+  <section>
+    <Form>
+  
+    <label for="story">
+       Thank you for bieng a member in our pltaform. You can sign up to receive Email updates. <br>
+    </label>
+    <label for="EMAIL ID">Email Id:</label><br> 
+    <br>
+    <input type="text" name="Email id" id="Email id">
+    <br>
+    <br>
+
+    Select Gender :
+    <br>
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label><br>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+    <br><br>
+Message :
+<br>
+<textarea id="story" name="story"
+        rows="20" cols="70">
+......
+</textarea>
+<br>
+<br>
+<br>
+
+This is an example from our videos tutorial channel : 
+<br><br>
+<br>
+
+
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=qz0aGYrrlhU">
+</iframe>
+</Form>
+
 <p>  © 2022 </p>
 </footer>
 </html>
